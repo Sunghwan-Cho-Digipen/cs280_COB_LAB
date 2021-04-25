@@ -6,7 +6,7 @@ File Name: Board.cpp
 Purpose: Source file for Board
 Project: CS280 Lab 6 - Clash Of Blocks
 Author: Kevin Wright, Sunghwan Cho
-Creation date: 04/25/2021
+Creation date: 04/21/2021
 -----------------------------------------------------------------*/
 
 #include "../Engine/Engine.h"

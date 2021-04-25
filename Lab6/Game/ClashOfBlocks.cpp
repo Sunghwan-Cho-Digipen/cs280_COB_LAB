@@ -6,7 +6,7 @@ File Name: ClashOfBlocks.cpp
 Purpose: Source file for ClashOfBlocks
 Project: CS280 Lab 6 - Clash Of Blocks
 Author: Sunghwan Cho
-Creation date: 04/25/2021
+Creation date: 04/21/2021
 -----------------------------------------------------------------*/
 
 #include "ClashOfBlocks.h"

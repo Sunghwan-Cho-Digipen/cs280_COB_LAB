@@ -6,7 +6,7 @@ File Name: Standard.cpp
 Purpose: Source file for Standard
 Project: CS280 Lab 6 - Clash Of Blocks
 Author: Sunghwan Cho
-Creation date: 04/25/2021
+Creation date: 04/21/2021
 -----------------------------------------------------------------*/
 
 #include "Standard.h"
