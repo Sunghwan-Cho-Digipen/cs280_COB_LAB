@@ -32,25 +32,25 @@ bool Standard::Visit()
 		if (TryToAdd(UPWARD) == true)
 		{
 			board->GetCell(UPWARD)->SetToImage(Images::RedX);
-			toVisit.push_back(UPWARD);
+			toVisit.emplace_back(UPWARD);
 		}
 
 		if (TryToAdd(RIGHTWARD) == true)
 		{
 			board->GetCell(RIGHTWARD)->SetToImage(Images::RedX);
-			toVisit.push_back(RIGHTWARD);
+			toVisit.emplace_back(RIGHTWARD);
 		}
 
 		if (TryToAdd(DOWNWARD) == true)
 		{
 			board->GetCell(DOWNWARD)->SetToImage(Images::RedX);
-			toVisit.push_back(DOWNWARD);
+			toVisit.emplace_back(DOWNWARD);
 		}
 
 		if (TryToAdd(LEFTWARD) == true)
 		{
 			board->GetCell(LEFTWARD)->SetToImage(Images::RedX);
-			toVisit.push_back(LEFTWARD);
+			toVisit.emplace_back(LEFTWARD);
 		}
 
 		return false;
