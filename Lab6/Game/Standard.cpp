@@ -63,7 +63,7 @@ void Standard::PlayerSelected(Vector2DInt cellLocation)
 	toVisit.clear();
 	Cell* selectedCell = board->GetCell(cellLocation);
 	selectedCell->SetToImage(Images::RedX);
-	toVisit.push_back(cellLocation);
+	toVisit.emplace_back(cellLocation);
 }
 
 bool Standard::TryToAdd(Vector2DInt cellPos)
